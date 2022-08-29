@@ -51,7 +51,7 @@ parser.add_argument("--require_improvement",
                     help="require_improvement")
 parser.add_argument("--pretrained_model_path",
                     type=str,
-                    default="hfl/chinese-roberta-wwm-ext",
+                    default="hfl/chinese-bert-wwm",
                     help="pretrained_model_path")  #预训练模型路径
 parser.add_argument("--clip_norm", type=str, default=0.25, help="clip_norm")
 parser.add_argument("--warm_up_epoch",
