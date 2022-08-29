@@ -18,7 +18,7 @@ import unicodedata, re
 from data_preprocessing import tools
 
 
-device = torch.device('cuda')
+device = torch.device('cpu')
 
 added_token = ['[unused1]', '[unused1]']
 tokenizer = BertTokenizer.from_pretrained(
