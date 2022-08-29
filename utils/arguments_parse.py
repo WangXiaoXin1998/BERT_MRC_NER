@@ -33,9 +33,9 @@ parser.add_argument("--tag_file",
                     type=str,
                     default="./data/tags.txt",
                     help="tag_file")
-parser.add_argument("--batch_size", type=int, default=12, help="batch_size")
-parser.add_argument("--hidden_num", type=int, default=128, help="hidden_num")
-parser.add_argument("--max_length", type=int, default=32, help="max_length")
+parser.add_argument("--batch_size", type=int, default=24, help="batch_size")
+parser.add_argument("--hidden_num", type=int, default=256, help="hidden_num")
+parser.add_argument("--max_length", type=int, default=64, help="max_length")
 parser.add_argument("--embedding_file",
                     type=str,
                     default=None,
